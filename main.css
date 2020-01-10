@@ -1,0 +1,33 @@
+#wrap {
+width:960px;
+margin:0px auto;
+}
+
+header {
+border:dashed 1px #999;
+}
+
+#sidenavi {
+float:left;
+width:198px;
+height:598px;
+border:dashed 1px #999;
+margin:10px 10px 10px 0px;
+}
+
+#contents {
+float:left;
+width:748px;
+height:598px;
+border:dashed 1px #999;
+margin:10px 0px 10px 0px;
+}
+
+footer {
+clear:both;
+border:dashed 1px #999;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+display: block;
+}
