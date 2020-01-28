@@ -5,6 +5,11 @@ margin:0px auto;
 
 header {
 border:dashed 1px #999;
+   
+}
+
+body{
+     font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
 
 #sidenavi {
@@ -30,4 +35,10 @@ border:dashed 1px #999;
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 display: block;
+}
+ font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+
+img.tit {
+width: 300px;
+height: 200px;
 }
