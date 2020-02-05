@@ -1,44 +1,58 @@
-#wrap {
-width:960px;
-margin:0px auto;
+﻿#wrap {
+	width:960px;
+	margin:0px auto;
 }
 
 header {
-border:dashed 1px #999;
-   
+	background-image: url("wood1.jpg");
+	border:ridge 1px #663300;
+	font-size: 30px; color: #0099ff;
+	text-shadow:1.5px 1.5px 0 #e6e6fa, -1.5px -1.5px 0 #e6e6fa,
+                       	-1.5px 1.5px 0 #e6e6fa, 1.5px -1.5px 0 #e6e6fa,
+                       	0px 1.5px 0 #e6e6fa,  0-1.5px 0 #e6e6fa,
+                       	-1.5px 0 0 #e6e6fa, 1.5px 0 0 #e6e6fa;
+}
+h1{
+	margin-left:50px;
 }
 
 body{
-     font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	background-color: #ccffff;
+	font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
 
 #sidenavi {
-float:left;
-width:198px;
-height:598px;
-border:dashed 1px #999;
-margin:10px 10px 10px 0px;
+	background-color: #99ccff;
+	float:left;
+	width:198px;
+	height:598px;
+	margin:10px 10px 10px 0px;
 }
 
 #contents {
-float:left;
-width:748px;
-height:598px;
-border:dashed 1px #999;
-margin:10px 0px 10px 0px;
+	float:left;
+	width:748px;
+	height:598px;
+	margin:10px 0px 10px 0px;
 }
 
 footer {
-clear:both;
-border:dashed 1px #999;
+	background-color:#cccccc;
+	text-align: center;
+	width:300px;
+	padding-bottom: 10px;
+	margin: 30px auto;
+	clear:both;
+	border:solid 1px #ccffff;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-display: block;
+	display: block;
 }
+
  font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 
 img.tit {
-width: 300px;
-height: 200px;
+	width: 300px;
+	height: 200px;
 }
